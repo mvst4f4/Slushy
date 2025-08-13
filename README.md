@@ -83,6 +83,8 @@ No AI-generated content (besides this README).
 ## Author:
 
 Mustafa
-Simple weather site coded by Mustafa
+
+
+### Simple weather site coded by Mustafa
 
 ---
