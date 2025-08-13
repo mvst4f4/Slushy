@@ -1,25 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>About (idk what to call this)</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<style>
-body { background: #fff; font-family: monospace; color: #000; min-height: 100vh; }
-.container { margin-top: 50px; max-width: 600px; }
-.card { padding: 20px; border-radius: 15px; border: 1px solid #000; }
-footer { margin-top: 50px; text-align: center; font-size: 14px; color: #555; }
-</style>
-</head>
-<body>
-<div class="container">
-    <div class="card">
-        <h2>About (idk what to call this)</h2>
-        <p>Simple, functional weather site coded by Mustafa. (hopefully cloudy with a chance of slushies)</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Weather Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background: #fff;
+        font-family: 'Inconsolata', 'Courier New', monospace;
+        color: #000;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .container {
+        margin-top: 50px;
+        max-width: 600px;
+        flex: 1;
+      }
+      .card {
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        background: #f8f9fa;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+      h2 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      p {
+        font-size: 1rem;
+        color: #333;
+        margin: 10px 0;
+      }
+      .btn-custom {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        border-radius: 8px;
+        padding: 8px 20px;
+        transition: background-color 0.2s;
+        color: #fff;
+      }
+      .btn-custom:hover {
+        background-color: #5c636a;
+        border-color: #5c636a;
+        color: #fff;
+      }
+      footer {
+        text-align: center;
+        font-size: 0.9rem;
+        color: #555;
+        padding: 20px 0;
+        background: #f1f1f1;
+        border-top: 1px solid #ddd;
+      }
+      @media (max-width: 576px) {
+        .container {
+          margin-top: 20px;
+          padding: 0 15px;
+        }
+        .card {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>About Weather Site</h2>
+        <p>Simple, functional weather site coded by Mustafa. (Hopefully cloudy with a chance of slushies)</p>
         <p>Check weather anywhere 🌎 and view your recent searches.</p>
-        <a href="/" class="btn btn-secondary">Back to Weather</a>
+        <div class="text-center">
+          <a href="/" class="btn btn-custom">Back to Weather</a>
+        </div>
+      </div>
     </div>
-</div>
-<footer>Simple weather site coded by Mustafa</footer>
-</body>
+    <footer>Simple weather site coded by Mustafa</footer>
+  </body>
 </html>
