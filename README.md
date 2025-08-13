@@ -68,7 +68,10 @@ Open your browser and go to http://127.0.0.1:5000.
 
 ```
 
-Notes
+---
+
+## Notes
+
 simple design for clarity.
 
 Functional and beginner-friendly (even a 9 year old can use it).
@@ -77,13 +80,9 @@ Tracks recent searches in memory.
 
 No AI-generated content (besides this README).
 
-Author:
+## Author:
 
 Mustafa
 Simple weather site coded by Mustafa
 
 ---
-
-If you want, I can **also create the `requirements.txt` and folder structure including placeholders for screenshots** so the project is submission-ready.  
-
-Do you want me to do that next?
