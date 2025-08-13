@@ -39,9 +39,10 @@ The design is simple, monotone, with a white background and monospace font. Focu
 
 *(Screenshots should be placed in a `screenshots/` folder)*
 
-- Weather Page: `screenshots/weather.png`  
-- History Page: `screenshots/history.png`  
-- About Page: `screenshots/about.png`  
+- Weather Page: `screenshots/homepage.png`
+- Weather Page with data: `screenshots/homepage_getweather.png` 
+- History Page: `screenshots/history_page.png`  
+- About Page: `screenshots/about_page.png`  
 
 ---
 
