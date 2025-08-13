@@ -1,4 +1,4 @@
-# Weather Slushy (idk what to call this)
+# A Simple Weather App for Hackclub YSWS Slushy (idk what to name it tho)
 
 A simple, functional weather web app coded by Mustafa.  
 Hopefully cloudy with a chance of slushies.
